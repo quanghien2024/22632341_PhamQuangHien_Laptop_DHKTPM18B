@@ -1,0 +1,156 @@
+*{
+    font-family:  Verdana, Arial, san-serif;
+    font-size: 11px;
+}
+.wrapper{
+    width: 1089px;
+    height: 900px;
+    margin: auto;
+}
+
+.nav{
+    width: 200px;
+    height: 900px;
+    float: left;
+    position: relative;
+}
+.header1{
+    width: 889px;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.header2{
+    width: 889px;
+    height: 150px;
+    background-color: rgb(226, 221, 215);
+    float: left;
+}
+.section{
+    width: 889px;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+.footer{
+    width: 889px;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.tieu_de {
+    background-color: #800080;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.Tieu_de_nav{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    /* background-color: #800080; */
+}
+.menu li{
+    list-style: none;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    background-color: #800080;
+    border-bottom: 3px solid white;
+    color: aliceblue;  
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;   
+}
+
+.menu li:hover{
+    border-bottom: 3px solid red;
+}
+
+.menu li:hover a{
+    color: yellow;
+}
+
+.menu li:last-child{
+    list-style: none;
+    width: 150px;
+    height: 150px;
+    line-height: 50px;
+    text-align: right;
+    background-color: #800080;
+    border-bottom: 3px solid white;
+    color: aliceblue;  
+}
+.tieu_de_section{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 384px;
+    height: 100px;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+}
+.title_section{
+    text-align: center;
+    color: #800080;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.date_section{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+}
+
+.text1{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 384px;
+    height: 300px;
+    font-size: 25px;
+    text-indent: 5px;
+}
+.text1_i{
+    font-size: 25px;
+}
+.text2{
+    font-size: 25px;
+}
+.read_more{
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.Footer{
+    text-align: center;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    color: #800080;
+    
+}
+.Footer p{
+    font-size: 18px;
+}
+
+.Khung{
+    background-color: #800080;
+    height: 530px;
+    width: 200px;
+    position: absolute;
+}
